@@ -1,0 +1,27 @@
+.quotes
+  margin-top: 30px
+  &-wrap
+    display: flex
+    flex-wrap: wrap
+    gap: 20px
+  &-item
+    width: calc((100% - 20px) / 2)
+    border-radius: 5px
+    border: 1px solid #333
+    padding: 10px 20px
+    &__main
+      display: flex
+      align-items: flex-start
+      word-break: break-word
+      justify-content: space-between
+      gap: 0 20px
+      &-btns
+        display: flex
+        gap: 0 10px
+        button
+          background: none
+          border: none
+    &__author
+      margin-top: 10px
+      text-align: right
+      word-break: break-word

@@ -1,0 +1,23 @@
+.navigation
+  ul
+    display: flex
+    align-items: center
+    list-style-type: none
+    gap: 0 15px
+    li
+      a
+        color: #ffffff
+        &:hover
+          color: #d9d9d9
+      .active
+        position: relative
+        width: max-content
+        &::before
+          content: ''
+          width: 100%
+          position: absolute
+          left: 0
+          bottom: -2px
+          height: 2px
+          background: #A259FF
+          transition: .4s
